@@ -15,4 +15,4 @@
 .DS_Store
 # default built binary
 go.sum
-.idea
+.idea/
