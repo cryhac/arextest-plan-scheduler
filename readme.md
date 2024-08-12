@@ -50,4 +50,4 @@ cronjob.batch/your-app-name-job created
 ![image-20240812173421601](https://test-1251091139.cos.ap-shanghai.myqcloud.com/picgoimage-20240812173421601.png)
 
 ### 5. 任务报告
-![image-20240812180608047](https://test-1251091139.cos.ap-shanghai.myqcloud.com/picgoimage-20240812180608047.png)
+![image-20240812180913892](https://test-1251091139.cos.ap-shanghai.myqcloud.com/picgoimage-20240812180913892.png)
