@@ -39,8 +39,8 @@ docker push registry.cn-hangzhou.aliyuncs.com/arexadmin01/arextest-plan-schedule
 
 ### 3. 提交任务
 ```sh
-➜  arextest-plan-scheduler kubectl apply -f your-app-name-job.yml  
-cronjob.batch/your-app-name-job created
+➜  arextest-plan-scheduler kubectl apply -f your-app-name-cron-job.yml
+cronjob.batch/your-app-name-cron-job created
 ```
 ### 4. 查看任务和日志
 查看任务:
