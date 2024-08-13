@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: your-app-name-cron-job
+spec:
+  schedule: "*/5 * * * *" # 每五分钟运行一次
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: your-app-name-job
+              image: registry.cn-hangzhou.aliyuncs.com/arexadmin01/arextest-plan-scheduler:0.6.5
+              env:
+                - name: APP_ID
+                  value: "your_app_id"
+                - name: TARGET_HOST
+                  value: "your_target_host"
+          restartPolicy: OnFailure
